@@ -1,4 +1,10 @@
+# apiVersion: v1
+# kind: Namespace #kubernetes cluster lo Namespace ani resource create chestuna
+# metadata:
+#   name: roboshop
+
+
 apiVersion: v1
-kind: Namespace
+kind: Namespace #kubernetes cluster lo Namespace ani resources create chestunam
 metadata:
   name: roboshop

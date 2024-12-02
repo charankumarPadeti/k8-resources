@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: devops-config
+data: # miru a data ni store chestunaru
+  course: DevOps
+  trainer: Charankumar

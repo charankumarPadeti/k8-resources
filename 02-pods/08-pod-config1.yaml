@@ -26,8 +26,24 @@ spec:
     ports:
     - containerPort: 80
     envFrom:
-        - configMapRef:
-            name: charan
+    - configMapRef:
+        name: charan
+
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: config-pod1
+# spec:
+#   #list of contaiers
+#   containers:
+#   - name: config-pod1
+#     image: nginx
+#     ports:
+#     - containerPort: 80
+#     envFrom:
+#     - configMapRef:
+#         name: devops-config
 
 
 

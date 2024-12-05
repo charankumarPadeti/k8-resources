@@ -22,8 +22,8 @@ kind: Pod
 metadata:
   name: hello-pod
 spec:
-  - containers:
-    name: hello-pod
+  containers:
+  - name: hello-pod
     image: nginx
     ports:
     - containerPort: 80

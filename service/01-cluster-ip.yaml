@@ -26,5 +26,5 @@ spec:
     demo: service
   ports:
     - protocol: TCP
-      port: 80 #service port we can give anything
+      port: 90 #service port we can give anything
       targetPort: 80 #containerPort  , nginx

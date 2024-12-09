@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: stable-perl
+        image: nginx
         ports:
         - containerPort: 80

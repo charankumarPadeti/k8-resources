@@ -8,10 +8,10 @@ metadata:
 spec:
   # modify replicas according to your case
   replicas: 3
-  selector:
+  selector: #replicaset labels
     matchLabels:
       app: nginx
-      tier: frontend
+      tier: frontend   #template paina nuchi replicaset paidhakka , template dhagara nuchi pod template
   template: #Pod definition
     metadata:
       labels:
